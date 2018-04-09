@@ -5,7 +5,7 @@ public class Samsungaksi {
         Samsung s =  new Samsung();
         
         s.setMerk("Samsung");
-        s.setWarna("Rose GOld");
+        s.setWarna("Rose Gold");
         s.setHarga(15000);
         
         s.cetakInfo();
