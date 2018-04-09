@@ -5,5 +5,14 @@ public class SamsungMahal extends Samsung {
     void throttle (){
         System.out.println("Samsung Series S");
     }
+
+    public String getJenisSamsung() {
+        return jenisSamsung;
+    }
+
+    public void setJenisSamsung(String jenisSamsung) {
+        this.jenisSamsung = jenisSamsung;
+    }
+    
     
 }
