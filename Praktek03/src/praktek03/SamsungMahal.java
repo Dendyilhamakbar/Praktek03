@@ -3,7 +3,7 @@ public class SamsungMahal extends Samsung {
     private String jenisSamsung;
     
     void throttle (){
-        System.out.println("Samsung Series S");
+        System.out.println("Welcome to Samsung S9");
     }
 
     public String getJenisSamsung() {
