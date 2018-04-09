@@ -1,9 +1,9 @@
 package praktek03;
-public class SamsungSedang extends Samsung {
+public class SamsungMurah extends Samsung {
     private String jenisSamsung;
     
     void throttle (){
-        System.out.println("Welcome to Samsung A8+");
+        System.out.println("Welcome to Samsung J7+");
     }
 
     public String getJenisSamsung() {

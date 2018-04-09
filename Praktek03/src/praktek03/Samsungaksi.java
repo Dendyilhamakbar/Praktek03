@@ -25,5 +25,36 @@ public class Samsungaksi {
         sm.cetakInfo();
         System.out.println("Jenis :"+sm.getJenisSamsung());
         sm.throttle();
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(s.getMerk());
+        System.out.print("Warnanya \t: ");
+        System.out.println(s.getWarna());
+        System.out.print("Harganya \t: ");
+        System.out.println(s.getHarga());
+        
+        SamsungSedang ss = new SamsungSedang();
+        sm.setMerk("A8+");
+        sm.setWarna("JetBlack");
+        sm.setHarga(10000);
+        sm.setJenisSamsung("Series A");
+        sm.cetakInfo();
+        System.out.println("Jenis :"+sm.getJenisSamsung());
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(s.getMerk());
+        System.out.print("Warnanya \t: ");
+        System.out.println(s.getWarna());
+        System.out.print("Harganya \t: ");
+        System.out.println(s.getHarga());
+        
+        SamsungMurah sh = new SamsungMurah();
+        sm.setMerk("J7+");
+        sm.setWarna("Gold ");
+        sm.setHarga(7000);
+        sm.setJenisSamsung("Series J");
+        sm.cetakInfo();
+        System.out.println("Jenis :"+sm.getJenisSamsung());
+       
      }
 }
